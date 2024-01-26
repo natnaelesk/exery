@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/exery/static/css/main.d35e1f53.css",
+    "main.js": "/exery/static/js/main.5f5f9a46.js",
+    "static/js/787.d74b54a9.chunk.js": "/exery/static/js/787.d74b54a9.chunk.js",
+    "static/media/andrew-neel-fqoYO9MjLLQ-unsplash.jpg": "/exery/static/media/andrew-neel-fqoYO9MjLLQ-unsplash.21cbd33c85ef6f4d78ea.jpg",
+    "static/media/bag-3.jpg": "/exery/static/media/bag-3.f470d90141241cc9f310.jpg",
+    "static/media/bag-2.jpg": "/exery/static/media/bag-2.c4f1feab8a94c2d8e2a9.jpg",
+    "static/media/16631571761141.5bd056667b6a2.jpeg": "/exery/static/media/16631571761141.5bd056667b6a2.afcdbf468ed8504856ca.jpeg",
+    "static/media/bag.jpeg": "/exery/static/media/bag.46c13cc9e84738671c86.jpeg",
+    "static/media/coin.png": "/exery/static/media/coin.10107e4fdb462da627d0.png",
+    "static/media/heart(3).png": "/exery/static/media/heart(3).2a5b2b14654ad1c48346.png",
+    "static/media/recycle.png": "/exery/static/media/recycle.4549d66a5ad8e55ba684.png",
+    "static/media/shield.png": "/exery/static/media/shield.178754424150ec85ef48.png",
+    "static/media/heart2.png": "/exery/static/media/heart2.e09d7c86e2c2958bfb35.png",
+    "static/media/heart.png": "/exery/static/media/heart.c227cae25b3bcd14a6ad.png",
+    "static/media/delivery-truck.png": "/exery/static/media/delivery-truck.81cb7f1d0df77dc3fdac.png",
+    "index.html": "/exery/index.html",
+    "main.d35e1f53.css.map": "/exery/static/css/main.d35e1f53.css.map",
+    "main.5f5f9a46.js.map": "/exery/static/js/main.5f5f9a46.js.map",
+    "787.d74b54a9.chunk.js.map": "/exery/static/js/787.d74b54a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d35e1f53.css",
+    "static/js/main.5f5f9a46.js"
+  ]
+}
