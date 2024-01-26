@@ -1,13 +1,163 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.main-title{
+ height: 80vh;
+}
+.w-3per{
+  width: 30%;
+}
+.App{
+  background-color: #212121;
+}
+.ser-box{
+  background: #3F3F3F;
+  
+}
+.bhh{
+  background: #3B3B3B;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.s--{
+  position: absolute;
+  right: 55%;
+  
+}
+.deck-bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-bg{
+  background: #5C524C;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hand-font{
+  font-family: 'Great Vibes', cursive;
 }
+.bold-font{
+  font-family: 'Anton', sans-serif;
+}
+.btn-color{
+  background: #FFAB7F;
+  color: #050303;
+}
+.text-color{
+  color: #CBC9C5;
+}
+.font-goblen{
+  font-family: 'Goblin One', serif;
+  font-size: 42px;
+}
+.link{
+  display: inline-block;
+  position: relative;
+}
+.link::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFAB7F;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out ;
+}
+.bb--{
+  background: #FFAB7F;
+}
+.image-pro{
+  /* background-image: url("images/bag-2.jpg"); */
+  background-position : bottom ;
+  background-size: cover ;
+}
+section{
+  margin: 20px 0;
+}
+.link:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+}
+.link:hover{
+  color: #FFAB7F;
+}
+
+/*  */
+
+
+#circular-text {
+  position: absolute;
+  color: #fff;
+  border-radius: 100%;
+  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); */
+  padding: 20px;
+  font-size: 12px;
+  animation: anim 20s linear infinite;
+}
+@keyframes anim {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+#circular-text span {
+  position: absolute;
+  transform-origin: top left;
+  top: 0;
+  left: 0;
+}
+
+.sm-color{
+  background: #FFAB7F;
+}
+.about-pic{
+  background-image: url('images/andrew-neel-fqoYO9MjLLQ-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px ;
+}
+#about{
+  width: 100vw;
+  height: 70vh;
+}
+.about-title{
+  font-family: 'Anton', sans-serif;
+}
+.h--{
+  height: 40vh;
+  border-radius: 30px;
+ 
+}
+.h--in{
+  position: absolute;
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  /* background: #fff; */
+  background-image: url('images/16631571761141.5bd056667b6a2.jpeg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+  filter: contrast(1.1) brightness(0.99);
+}
+
+/* copy codeeee */
